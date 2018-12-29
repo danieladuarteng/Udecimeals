@@ -164,7 +164,7 @@ class App extends Component {
           onRequestClose={this.closeIngredientsModal}
           contentLabel='Modal'
         >
-          {ingredientsModalOpen && <ShoppingList list={this.generateShoppingList()}/>}
+          {ingredientsModalOpen && <ShoppingList list={this.generateShoppingList()} />}
         </Modal>
 
       </div>
